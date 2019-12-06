@@ -1,0 +1,66 @@
+.main{
+    width: 100%;
+    height: 494px;
+    margin-top: 95px;
+    margin-bottom: 100px;
+}
+.main-c{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.main-c .box-1{
+    float: left;
+    width: 287px;
+    height: 494px;
+    margin-right: 17px;
+    background: url(../img/团队1.jpg);
+    background-size: cover;
+    position: relative;
+}
+.main-c .box-2{
+    float: left;
+    width: 287px;
+    height: 494px;
+    margin-right: 17px;
+    background: url(../img/团队2.jpg);
+    background-size: cover;
+    position: relative;
+}
+.main-c .box-3{
+    float: left;
+    width: 287px;
+    height: 494px;
+    margin-right: 17px;
+    background: url(../img/团队3.jpg);
+    background-size: cover;
+    position: relative;
+}
+.main-c .box-4{
+    float: left;
+    width: 287px;
+    height: 494px;
+    margin-right:0;
+    background: url(../img/团队4.jpg);
+    background-size: cover;
+    position: relative;
+}
+.main-c a{
+    position: absolute;
+    color: #626262;
+    font-size: 20px;
+    font-weight: bold;
+    top: 124px;
+    left: 35px;
+}
+.main-c p{
+    color: #4d4c4c;
+    font-size: 16px;
+    text-indent: 35px;
+}
+.main-c .p1{
+    margin-top: 189px;
+}
+.main-c .p2{
+    margin-top: 12px;
+}

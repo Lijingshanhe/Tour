@@ -1,0 +1,583 @@
+.header-c .menu.left{
+    color: #00daed;
+    border-bottom: 2px solid #00daed;
+}
+.banner{
+    width: 100%;
+    height: 624px;
+    background-color: red;
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    position: relative;
+}
+.banner a{
+    font-size: 24px;
+    color: #ffffff;
+    position: absolute;
+    top: 172px;
+    right: 603px;
+}
+.banner ul{
+    float: left;
+    margin-top: 574px;
+    margin-left: 710px;
+}
+.banner .dot{
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+    border:2px solid #fff;
+    margin-right: 20px;
+}
+.banner .dot.active{
+    background-color: #fff;
+}
+.banner .dot:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* ----------内容------------ */
+.main{
+    width: 100%;
+    height: 1150px;
+    margin-top: 100px;
+
+
+}
+.main-c{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.main-c .p1{
+    font-size: 24px;
+    color: #3b3b3b;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+.main-c .p2{
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-bottom: 42px;
+}
+.main-c .blue{
+    width: 52px;
+    height: 13px;
+    background-color: #04e4f8;
+    position: absolute;
+    top: 5px;
+    left: -23px;
+    z-index: -1;
+}
+.main-c .content-1{
+    position: absolute;
+    width: 382px;
+    height: 273px;
+    background: url(../img/洱海.jpg);
+    background-size: cover;
+}
+.main-c .content-2{
+    position: absolute;
+    width: 817px;
+    height: 168px;
+    background-color: #fbfbfb;
+    top: 156px;
+    left: 382px;
+}
+
+.main-c .content-3{
+    position: absolute;
+    width: 382px;
+    height: 273px;
+    background: url(../img/小酒馆.jpg);
+    background-size: cover;
+    right: 0;
+    top: 362px;
+}
+.main-c .content-4{
+    position: absolute;
+    width: 817px;
+    height: 168px;
+    background-color: #fbfbfb;
+    top: 422px;
+}
+
+.main-c .content-5{
+    position: absolute;
+    width: 382px;
+    height: 273px;
+    background: url(../img/青海湖.jpg);
+    background-size: cover;
+    top: 635px;
+}
+.main-c .content-6{
+    position: absolute;
+    width: 817px;
+    height: 168px;
+    background-color: #fbfbfb;
+    right: 0;
+    top: 685px;
+}
+.main-c .p3{
+    font-size: 22px;
+    font-weight: bold;
+    color: #404040;
+    text-align: center;
+    margin-top: 38px;
+}
+.main-c .p4{
+    font-size: 14px;
+    color: #515254;
+    text-align: center;
+    margin-top: 19px;
+}
+
+
+.main-c li{
+    float: left;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #515254;
+    
+}
+.main .dot-1{
+    width: 7px;
+    height: 7px;
+    transform: rotate(45deg);
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #f19ec2;
+    margin-left: 200px;
+    margin-right: 5px;
+}
+.main .dot-2{
+    width: 7px;
+    height: 7px;
+    transform: rotate(45deg);
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #f19149 ;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.main .dot-3{
+    width: 7px;
+    height: 7px;
+    transform: rotate(45deg);
+    display: inline-block;
+    vertical-align: middle;
+    background-color:#8c97cb ;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.main .dot-4{
+    width: 7px;
+    height: 7px;
+    transform: rotate(45deg);
+    display: inline-block;
+    vertical-align: middle;
+    background-color:#7ecef4 ;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.main .dot-5{
+    width: 7px;
+    height: 7px;
+    transform: rotate(45deg);
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #cce198;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.main .dot-6{
+    width: 7px;
+    height: 7px;
+    transform: rotate(45deg);
+    display: inline-block;
+    vertical-align: middle;
+    background-color:#84ccc9 ;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.main .more a{
+    display: block;
+    font-size: 16px;
+    color: #807e7e;
+    line-height: 68px;
+    height: 68px;
+    width: 394px;
+}
+.main .more{
+    width: 394px;
+    height: 68px;
+    border: 1.5px solid #f2f2f2;
+    text-align: center;
+    position: absolute;
+    bottom: 100px;
+    left: 410px;
+}
+.main .more:hover{
+    background-color: #9fa2a2;
+}
+/* ---------- */
+.content{
+    width: 100%;
+    height: 253px;
+    background: url(../img/about.jpg) no-repeat;
+    background-size: 40% auto ;
+    background-color: #fbfbfb;
+    margin-bottom: 100px;
+    z-index: -100;
+
+}
+.content-c{
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+}
+.content-c .p1{
+    position: relative;
+    display: block;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 9px;
+    z-index: 10;
+}
+.content-c .p2{
+    font-size: 14px;
+    color: #797676;
+    margin-bottom: 42px;
+    margin-left: 20px;
+}
+.content-c .blue{
+    width: 52px;
+    height: 13px;
+    background-color: #04e4f8;
+    position: absolute;
+    top: 5px;
+    left: -23px;
+    z-index: 1;
+}
+.content-c .int-1{
+    position: absolute;
+    width: 80px;
+    height: 37px;
+    right: 521px;
+    top: 53px;
+
+
+}
+.content-c .con-1{
+    position: absolute;
+    width: 80px;
+    height: 37px;
+    right: 521px;
+    top: 159px;
+}
+.content-c .int-2{
+    position: absolute;
+    width: 408px;
+    height: 39px;
+    right: 94px;
+    top: 53px;
+}
+.content-c .con-2{
+    position: absolute;
+    width: 408px;
+    height: 39px;
+    right:94px ;
+    top:159px ;
+}
+.content .title-1{
+    color: #373737;
+    font-size: 18px;
+    font-weight: bold;
+}
+.content .title-2{
+    color: #494949;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.content .title-3{
+    font-size: 14px;
+    color: #494949;
+    margin-bottom: 8px;
+}
+
+
+.route{
+    width: 100%;
+    height: 833px;
+}
+.route-c{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.route-c .p1{
+    font-size: 24px;
+    color: #3b3b3b;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+.route-c .p2{
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-bottom: 42px;
+}
+.route-c .blue{
+    width: 52px;
+    height: 13px;
+    background-color: #04e4f8;
+    position: absolute;
+    top: 5px;
+    left: -23px;
+    z-index: -1;
+}
+.route-c .box-q{
+    float: left;
+    width: 400px;
+    height: 250px;
+    background-color: #fbfbfb;
+}
+.route-c .box-w{
+    float: left;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    cursor: pointer;
+
+}
+.route-c .box-e{
+    float: left;
+    width: 400px;
+    height: 250px;
+    background-color: #fbfbfb;
+}
+.route-c .box-r{
+    float: left;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    cursor: pointer;
+
+}
+.route-c .box-t{
+    float: left;
+    width: 400px;
+    height: 250px;
+    background-color: #fbfbfb;
+}
+.route-c .box-y{
+    float: left;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    cursor: pointer;
+
+}
+.route-c .pz{
+    font-size: 18px;
+    font-weight: bold;
+    color: #5d5d5d;
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 12px;
+}
+.route-c .px{
+    font-size: 16px;
+    color: #999999;
+    text-align: center;
+}
+.route-c .more a{
+    display: block;
+    font-size: 16px;
+    color: #807e7e;
+    line-height: 68px;
+    height: 68px;
+    width: 394px;
+}
+.route-c .more{
+    width: 394px;
+    height: 68px;
+    border: 1.5px solid #f2f2f2;
+    text-align: center;
+    position: absolute;
+    bottom: 100px;
+    left: 410px;
+}
+.route-c .filter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: none;
+    transition: all 7s;
+}
+.route-c .box-w:hover .filter{
+    display: block;
+}
+.route-c .box-r:hover .filter{
+    display: block;
+}
+.route-c .box-y:hover .filter{
+    display: block;
+}
+.route-c .more:hover{
+    background-color: #9fa2a2;
+}
+/* -------------------------- */
+
+.service{
+    position: relative;
+    width: 100%;
+    height: 338px;
+    background: url(../img/QQ图片20181016132224.jpg)no-repeat center;
+    transition: all .3s;
+    overflow: hidden;
+}
+.service:hover{
+    background: url(../img/水.png)no-repeat center;
+}
+.service-c{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.service-c .box-a{
+    width: 142px;
+    height: 41px;
+    background-color: transparent;
+    border: 2px solid #a5a5a9;
+    position: absolute;
+    top: 102px;
+    left: 222px;
+    text-align: center;
+}
+.service-c .box-s{
+    width: 142px;
+    height: 41px;
+    background-color: transparent;
+    border: 2px solid #a5a5a9;
+    position: absolute;
+    top: 102px;
+    right: 222px;
+    text-align: center;
+}
+
+.service .box-s a{
+    color: #f1f2f3;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    width: 142px;
+    height: 41px;
+    line-height: 41px;
+}
+.service .box-a a{
+    color: #f1f2f3;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    width: 142px;
+    height: 41px;
+    line-height: 41px;
+}
+.service .box-a,.box-s:hover{
+    background-color: #04e4f8;
+    border: none;
+}
+
+
+.service-c .pa{
+    color: #bdbaba;
+    font-size: 22px;
+    position: absolute;
+    top: 162px;
+    left: 202px;
+}
+.service-c .ps{
+    color: #bdbaba;
+    font-size: 22px;
+    position: absolute;
+    top: 162px;
+    right: 202px;
+
+}
+.service-c .pd{
+    color: #bdbaba;
+    font-size: 12px;
+    position: absolute;
+    top: 193px;
+    left: 222px;
+}
+.service-c .pf{
+    color: #bdbaba;
+    font-size: 12px;
+    position:absolute;
+    top: 193px;
+    right: 212px;
+}
+.service-c .box-v{
+    width: 30px;
+    height: 2px;
+    background-color: #9ea2a4;
+    position: absolute;
+    top: 219px;
+    left: 277px;
+}
+.service-c .box-b{
+    width: 30px;
+    height: 2px;
+    background-color: #9ea2a4;
+    position: absolute;
+    top: 219px;
+    right: 277px;
+}
+/* ---------------- */
+.we{
+    width: 100%;
+    height: 45px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    
+}
+.we-c{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+
+}
+.we-c .p1{
+    font-size: 24px;
+    color: #3b3b3b;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+.we-c .p2{
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-bottom: 42px;
+}
+.we-c .blue{
+    width: 52px;
+    height: 13px;
+    background-color: #04e4f8;
+    position: absolute;
+    top: 5px;
+    left: -23px;
+    z-index: -1;
+}
